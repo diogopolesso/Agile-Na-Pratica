@@ -1,0 +1,23 @@
+## Gráfico Burndown de Release
+
+É importante saber fazer esse gráfico porque ele faz a medição que pode trazer a resposta para a grande pergunta: Quando o projeto finalmente ficará pronto?
+
+A release se refere à entrega derradeira, que geralmente demorará de 3 a 6 meses.
+
+O primeiro passo para a construção dele é sempre colocar o objetivo. No caso do nosso exemplo, estimamos que na primeira release entregaríamos 240 pontos em 8 iterações. Cada iteração será de 2 semanas.
+
+O eixo y do gráfico, horizontal, terá os valores referentes aos pontos estimados (50, 100, 150, 200, 250, 300). O eixo x do gráfico, ou horizontal, trará as 8 iterações.
+
+Então, em 16 semanas entregaremos nossa primeira release, então é possível colocar essa estimativa no calendário para nosso cliente. Essa informação, é claro, não é inflexível, pois podem haver imprevistos durante as 16 semanas. Mas há uma estimativa de quando será entregue o primeiro incremento.
+
+Tendo passada a 1ª iteração, ou seja, as duas primeiras semanas, será possível começar a desenhar o gráfico. Após esse período, abaixaremos os Pontos para 210. Porém, na 2ª iteração, os pontos subirão de 210 para 220. Analisando as Velocidades das iterações, esse não terá sido o problema, mas na 1ª iteração a velocidade foi de 30, e na 2a, de 40.
+
+Então, o que terá acontecido, na realidade, é que o Product Owner adicionará mais histórias, e teremos inclusive uma velocidade maior na 2ª iteração. Com uma maior quantidade de histórias, não será possível baixar nosso gráfico, que nesse caso terá uma linha descendente.
+
+Na 3ª iteração, os pontos baixarão para 190. Já a partir dessa, poderemos traçar uma linha imaginária e perceber que não conseguiremos entregar o resultado esperado em 8 iterações.
+
+Então, esse passará a ser um momento de avisar o Product Owner da questão, para que ela ou ele retire algumas histórias, repensando a priorização do backlog, ou permita haver mais uma iteração, já que de acordo com o gráfico, será possível entregar após 9.
+
+Na 4ª iteração, a velocidade terá passado de 35 para 65, e de 190, passaremos a 125 pontos, entrando novamente no eixo em 8 iterações. No entanto, essa situação será muito pouco provável.
+
+Por vezes ocorre de um time, principalmente os que não tem muita experiência, ao ver o número de histórias aumentar muito drasticamente acabar inflacionando pontos. Em vez da velocidade aumentar, o time estará estimando histórias com números maiores, o que causará uma ilusão de velocidade. Esse é um palpite sobre o que pode ter ocorrido para que o gráfico de apresentasse assim na 4a iteração, e é uma situação que não costuma ser positiva para a equipe.
